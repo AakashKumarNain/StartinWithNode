@@ -1,0 +1,13 @@
+<article class="artworklist">
+  <h1>Artwork on display</h1>
+  <p>
+   While you are in conference ,you can head over to our gallery where you can see some cool artworks of our speakers.
+  </p>
+  <div class="pixgrid">
+    <% if(artwork.length > 0) { %>
+      <% for(i=0; i<artwork.length; i++) { %>
+        <img src="/images/artwork/<%= artwork[i] %>" alt="ArtWork <%= i %>" />
+      <% } %>
+    <% } %>
+  </div>
+</article>

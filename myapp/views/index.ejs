@@ -2,20 +2,20 @@
 <html>
   <head><% include partials/template/head.ejs %></head>
   <body>
-    
     <% include partials/template/header.ejs %>
+    <% include partials/content/speakerslist.ejs %>
      <section class="layout">
      	<div class="primary">
-          This is the primary divison in the section tag.Here you will see how it goes and looks in the browser.
+            <% include partials/content/whoarewe.ejs %>
+            <% include partials/content/getbusy.ejs %>
+            <% include partials/content/whoshouldcome.ejs %>
         </div>
-
         <aisde class="secondary">
-          This is the aside divison in the section tag.Here you will see how it goes and looks in the browser.
+          <% include partials/content/nextmeeting.ejs %>
+          <% include partials/content/artworklist.ejs %>
         </aside>
      </section>
     <% include partials/template/footer.ejs %>
-    <% include partials/template/jsdefault.ejs %>  
-  
-    
+    <% include partials/template/jsdefault.ejs %>
   </body>
 </html>
