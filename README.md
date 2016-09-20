@@ -1,6 +1,6 @@
 # Building websites using node.js
 
-This repository aims to provide an example with minimal code in order to build a website using `node.js`
+This repository aims to provide an example with minimal code in order to build a website using `node.js` and `Express`
 One of the great things about node.js is that it can be used for front-end as well as backend.
 
 ## Requirements
